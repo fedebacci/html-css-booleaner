@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.main-header {
+    background-image: url(../img/pattern.png);
+    background-color: #4EA1FF;
+    background-position: top;
+}
+
+.logo {
+    max-width: 22.5rem;
+    margin: 4rem 0 1rem .5rem;
+}
