@@ -2,20 +2,60 @@ body {
     margin: 0;
 }
 
+
 .main-header {
     background-image: url(../img/pattern.png);
     background-color: #4EA1FF;
     background-position: top;
 }
 
+
 .logo {
     max-width: 22.5rem;
     margin: 0;
 }
-
 .logo-img {
     margin: 4rem 0 1rem .5rem;
 }
 .logo > figcaption {
     display: none;
+}
+
+
+main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+h1 {
+    font-size: 3.85rem;
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+
+    line-height: 1;
+}
+
+.autore {
+    margin-top: 0;
+    color: #7B7B7B;
+
+    font-size: 1.8rem;
+    line-height: .9em;
+}
+.autore a {
+    color: #5497B0;
+    text-decoration: none;
+}
+.autore > .data {
+    font-size: .66em;
+}
+
+
+section > figure {
+    margin: 0;
+}
+
+section figcaption {
+ font-size: .8rem;
 }
