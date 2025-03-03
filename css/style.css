@@ -67,3 +67,25 @@ section figcaption {
 section ul {
     padding-left: 1rem;
 }
+
+
+
+thead tr {
+    color: #fff;
+    background-color: #20ABE7;
+}
+
+th,
+td {
+    padding: .1rem;
+    min-width: 15rem;
+    text-align: left;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #B1E6F2;
+}
+/* tbody tr:nth-child(even) {
+    background-color: #fff;
+} */
