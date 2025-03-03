@@ -28,6 +28,20 @@ main {
 }
 
 
+section {
+    margin: 2rem 0;
+
+    /* border: 1px solid; */
+}
+section > p:first-child {
+    margin-top: 0;
+}
+section > p:last-child {
+    margin-bottom: 0;
+}
+
+
+
 h1 {
     font-size: 3.85rem;
     margin-top: 2rem;
@@ -86,6 +100,33 @@ td {
 tbody tr:nth-child(odd) {
     background-color: #B1E6F2;
 }
-/* tbody tr:nth-child(even) {
-    background-color: #fff;
-} */
+
+
+
+
+h2 {
+    color: #7D7D7D;
+    margin-bottom: .8rem;
+}
+
+.card-immagine:first-of-type {
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 1rem;
+}
+.card-immagine:last-of-type {
+    background-image: url(../img/graph.jpg);
+}
+
+.card-immagine {
+    max-width: 15rem;
+    aspect-ratio: 4/3;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem .75rem;
+}
+
+.card-immagine h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+}
