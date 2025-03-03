@@ -59,3 +59,11 @@ section > figure {
 section figcaption {
  font-size: .8rem;
 }
+
+.evidenziato {
+    background-color: yellow;
+}
+
+section ul {
+    padding-left: 1rem;
+}
